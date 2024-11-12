@@ -1,0 +1,18 @@
+{
+        "name": "𝐂𝐎𝐃𝐄 𝐂𝐑𝐄𝐄𝐏𝐄𝐑 𝐕1",
+        "description": "WhatsApp bug bot.",
+        "repository": "",
+        "logo": "https://files.catbox.moe/wrm4u3.jpeg",
+        "keywords": ["multi-device"],
+"buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
